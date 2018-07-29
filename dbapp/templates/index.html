@@ -1,0 +1,60 @@
+{% extends 'layout.html' %}
+
+
+
+{% block body %}
+	<!-- banner   -->
+	<h1 class="title"> Hi World </h1>
+	<hr>
+	<style type="text/css">
+		
+		form{
+			padding: 0px;
+			margin: 0px;
+			width: 100%;
+			box-shadow: 0 0 0 0;
+			display: inline
+		}
+
+		form input{
+			display: inline;
+		}
+
+		form input[type='submit']{
+			margin: 0px;
+			padding: 0px;
+			display: inline;
+		}		
+
+		p{
+			display: inline;
+			padding: 10px;
+			font-size: 20px;
+		}
+
+		label{
+			padding: 10px;
+			font-size: 20px;
+		}
+
+
+	</style>
+	<ul style="list-style: none;padding: 10px;">
+		<li>
+			<label>User</label> :<p>{{db['user']}}<p>
+		</li>
+		<li>
+			<label>email</label>:<p>{{db['email']}}</p>
+		</li>
+		<li>
+			<label>Token</label>:<input style="width: 60%;margin:0;" type="tk" value="{{db['tk_user']}}">
+			<form action='/' method='POST' style="">
+				<input type="submit" name="reftoken" value="ref">
+			</form>
+		</li>
+
+		<li>
+			<label>Name DB</label> : {{db['db_user']}}
+		</li>
+	</ul>
+{% endblock %}

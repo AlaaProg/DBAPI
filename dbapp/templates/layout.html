@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ title }}</title>
+
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
+</head>
+<body>
+
+
+	<div class="body">
+
+		<nav>
+
+			<u1 class='nav'>
+				<li><a href="/"> Home </a> </li>
+				<li><a href="#"> About </a> </li>
+			</u1>
+
+			{% if not session.get('login') %}
+				<a class="link" href="{{url_for('APP.luser')}}"> 
+					Login 
+				</a>
+				<a class="link">
+				/
+				</a>
+				<a class="link" href="{{url_for('APP.cuser')}}"> 
+					regester 
+				</a>
+			{% endif %}
+
+		</nav>
+
+		{%block body%}{%endblock%}
+
+	</div>
+
+</body>
+</html>

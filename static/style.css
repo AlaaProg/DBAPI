@@ -1,0 +1,211 @@
+div.body{
+	margin: auto;
+	width: 80%;
+}
+
+
+h1.title{
+	background-color: #333;
+	padding: 50px;
+	margin-top:0;
+	color: white;
+	height: 100px;
+	text-align: center;
+	text-shadow: 2px 0 6px;
+
+}
+
+nav{
+	background-color: #222;
+	padding: 5px;
+}
+
+.nav {
+	list-style: none;
+	padding: 15px;
+}
+
+.nav > li{
+	display: inline-block;
+	padding: 5px;
+}
+
+.nav > li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+.nav > li a:hover{
+	font-weight: bolder;
+}
+
+nav > a.link{
+	float: right;
+	color:white;
+	font-size: 16px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+
+nav > a.link:hover{
+	text-decoration: underline;
+}
+
+hr{
+	opacity: 0.5;
+}
+
+.posts{
+	width: 65%;
+	padding: 10px;
+	box-shadow: 0 0px 1px 0;
+	margin-bottom: 10px; 
+}
+
+h1.post-title{
+	margin-bottom: -8px;
+}
+
+h1.post-title a{
+	text-decoration: none;
+	color: #334;
+}
+
+h1.post-title a:hover{
+	text-decoration: underline;
+	
+}
+
+p.post-body{
+
+	font-style: italic;
+}
+
+p.post-date{
+	text-align: right;
+	font-size: 15px;
+	opacity: 0.5;
+}
+
+
+
+
+/* Sign  */
+	form{
+		margin: auto;
+		padding: 30px;
+		box-shadow:  0 0 1px 0;
+		width:60%;
+	}
+	form input{
+		display: block;
+		padding: 10px;
+		width: 80%;
+		margin: auto;
+		margin-bottom: 8px;
+		font-weight: 20px;
+	}
+
+	form input[type='submit']{
+		width: 20%;
+		font-size: 15px;
+	}
+
+	#err{
+		display: none;
+		background-color: #e04343;
+		padding: 15px;
+		box-shadow: 0 0 5px 0 black; 
+		color:#f8d4d4;
+		margin: auto;
+		margin-bottom: 10px; 
+		width: 64%;
+		font-weight: bold;
+	}
+
+/* END Sign IN */
+/*Command */
+.command-min{
+	margin: auto;
+	width: 80%;
+}
+
+.command{
+	/*margin: auto;*/
+	width: 70%;
+	box-shadow: 0 0 1px 0;
+	border:1px solid lightgray;
+	padding: 10px;
+	margin-bottom: 10px
+}
+
+.command a{
+	font-size: 15px;
+	padding: 10px 0 0 0;
+	color:#1d4dd5;
+	text-decoration: none;
+}
+
+.command p{
+	font-size: 15px;
+	font-style: italic;
+	margin-top:6px;
+}
+
+
+
+.commit{
+	/*grid-column: : 2;*/
+	margin: auto;
+	width: 85%
+}
+.commit textarea{
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 80px;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+
+.post{
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+	box-shadow: 0 0px 1px 0;
+	margin-bottom: 10px; 
+}
+
+@media (max-width: 850px){
+	div.body{
+		margin: auto;
+		width: 100%;
+	}
+
+
+	form{
+		width: 80%;
+	}
+	#err{
+		width:85%; 
+	}
+	.posts{
+		margin: auto;
+		width: 95%;
+		margin-bottom: 20px; 
+	}
+	.post{
+		width: 90%;
+		margin: auto;
+	}
+
+	.command-min{
+		width: 100%;
+	}
+	.command{
+		width: 80%;
+	}
+}

@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+
+
+
+{% block body %}
+	
+	<h1 class="title"> Log IN </h1>
+
+	<hr>
+	
+	<p id="err" style="display: {{err}}"> 
+		{{ error }}
+	</p>
+
+	<form action="{{url_for('APP.luser')}}" method="post">
+		<input type="email" autocomplete="off" required="" name="#email" placeholder="Enter Email">
+		<input type="password" required="" autocomplete="new-password" name="#pass" placeholder="Enter Password">
+		<input type="submit" name="in" value="Sign IN">
+	</form>
+
+{% endblock %}
