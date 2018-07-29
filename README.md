@@ -15,8 +15,9 @@ pip install install -r requirements.txt
 
 
 ###Step 2 : Create Database ' anyname ' AND   Import  ' Users.sql ' to Create tables  
-  
-###Step 3 : Go to settin.py set " defaulte  root user "
+<br>
+
+###Step 3 : Go to DBAPI/settin.py set " defaulte  root user "
 ```
 
 # DATABASE DRIVER  MYSQl 
@@ -31,7 +32,7 @@ NAME_DB   = ''
 
 cd dbpy_api 
 
-python manage.py runserver 
+python DBAPI/manage.py runserver 
 
 ```
 
