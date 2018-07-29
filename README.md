@@ -1,9 +1,9 @@
 # dbSqlApi
 
-__Take Database for user !__
-__Take User/password for Cpanel db 'phpmyadmin' !__
-__Take token to  Controller by databases from anyapplication !__
-__and Thx !__
+__Take Database for user !__<br>
+__Take User/password for Cpanel db 'phpmyadmin' !__<br>
+__Take token to  Controller by databases from anyapplication !__<br>
+__and Thx !__<br>
 
 
 
