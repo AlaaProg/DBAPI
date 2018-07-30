@@ -1,9 +1,9 @@
 # dbSqlApi
 
-__Give a database to each user!<br>
+Give a database to each user!<br>
 The user creates a new account<br>
 The user accesses the database by a token taken after the logins. To perform reader operations, write, delete and update data!<br>
-The user name and password are used to enter the database control module to create the dialog __
+The user name and password are used to enter the database control module to create the dialog
 
 ###Step 1 : Install libs 
 
