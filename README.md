@@ -4,17 +4,17 @@ give Database for user and all Users have  username AND password for access to  
 when login give token for user to access  databases from anyapplication by awy api !
 
 
-###Step 1 : Install libs 
+### Step 1 : Install libs 
 
 ```
 pip install install -r requirements.txt
 ```
 
 
-###Step 2 : Create Database ' anyname ' AND   Import  ' Users.sql ' to Create tables  
+### Step 2 : Create Database ' anyname ' AND   Import  ' Users.sql ' to Create tables  
 <br>
 
-###Step 3 : Go to DBAPI/settin.py set " defaulte  root user "
+### Step 3 : Go to DBAPI/settin.py set " defaulte  root user "
 ```
 
 # DATABASE DRIVER  MYSQl 
