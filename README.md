@@ -44,10 +44,10 @@ python DBAPI/manage.py runserver
 	}
 
 #### GET : /api/<nametable>/<limit> 
-	Select  ALL    
+	# Select  ALL    
 
 #### VIEW : /api/<nametable> 
-	# Select 
+	# Select row 
 	Json = {
 		cols  : 'col1,col2',
 		where : 'col1=3',
@@ -55,6 +55,7 @@ python DBAPI/manage.py runserver
 	}
 
 ### POST : /api/<nametable>
+	# Insert row
 	json = {
 		data:{
 			col1:'value',
@@ -64,6 +65,7 @@ python DBAPI/manage.py runserver
 	}
 
 ### PUT : /api/<nametable>
+	# update row 
 	json = {
 		data:{
 			col2:'newvalue'
@@ -73,6 +75,7 @@ python DBAPI/manage.py runserver
 
 
 ### DELETE : /api/<nametable>
+	# delete  row
 	json = {
 		where: 'col3=20'
 	}
