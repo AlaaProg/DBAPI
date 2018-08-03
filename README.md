@@ -24,7 +24,7 @@ DB_PASS   = ''
 NAME_DB   = '' 
 
 ```
-###Step 4 : Run APP 
+### Step 4 : Run APP 
 ```
 
 cd dbpy_api 
@@ -33,7 +33,7 @@ python DBAPI/manage.py runserver
 
 ```
 
-## Site : 
+## WebSite localhost:8000/: 
 	1- create new user { path ' /cuser ' }
 	2- login to take token
 	3- index info and ref token  [ to 1 day ]
