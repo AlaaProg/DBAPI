@@ -7,9 +7,10 @@
 
 
 	like : 
-		you use javascript ,html and css need to access to database 
-		you can use the ajax to access database by api  to do the select , insert , update and delete 
-		(  not need to write backend  )
+		you use javascript ,html and css to create website and need to access  database 
+		you will use the ajax to access database by api  to do the select , insert , update and delete 
+		( you not need to write backend  )
+
 
 ### Step 1 : Install libs 
 
