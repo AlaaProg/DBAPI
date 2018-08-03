@@ -1,8 +1,15 @@
 # dbSqlApi
 
-give Database for user and all Users have  username AND password for access to  Cpanel database 
-when login give token for user to access  databases from anyapplication by awy api !
+	idea :
+		when new user register
+		Gave one database and username/password to access to controller panel and
+		token to access api to write, read,update and delete
 
+
+	like : 
+		you use javascript ,html and css need to access to database 
+		you can use the ajax to access database by api  to do the select , insert , update and delete 
+		(  not need to write backend  )
 
 ### Step 1 : Install libs 
 
