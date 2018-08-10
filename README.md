@@ -6,11 +6,6 @@
 		token to access api to write, read,update and delete
 
 
-	like : 
-		you use javascript ,html and css to create website and need to access  database 
-		you will use the ajax to access database by api  to do the select , insert , update and delete 
-		( you not need to write backend  )
-
 
 ### Step 1 : Install libs 
 
